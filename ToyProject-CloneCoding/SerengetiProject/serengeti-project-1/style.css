@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(252, 236, 193); /*배경색*/
+    background-image: url(/image/그림05.png),url(/image/그림06.png);
+    background-position: 0 0, right 0;
+    background-repeat: no-repeat;
+}
+div#title {
+    text-align: center;
+    padding: 200px;
+}
+#online {
+    color: rgb(252, 204, 73);
+    font-size: 160px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    z-index: 999;
+} 
+
+.title-content {
+    font-size: 60px;
+    letter-spacing: 4px;
+    z-index: 998;
+    color: rgb(165, 97, 42);
+}
+
+#textarea { /*마진 패딩 설정*/
+    padding: 50px;
+    font-size: 30px;
+    background-color: white;
+    height: 600px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -180px;
+    line-height: 60px;
+    letter-spacing: 4px;
+    
+}
+#textarea > span { /*첫글자 셰도우와 강조 색*/
+    color: rgb(165, 97, 42);
+    text-shadow: 3px 0 lightgray;
+}
+
+#edu-title {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+#edu-title-content {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+#edu-title-content div {
+    display: inline-table;
+    width: 24%;
+}
+#edu-title-content div div {
+    width: 100%;
+    font-size: 20px;
+}
+
+img {
+    width: 90%;
+}
+.center {
+    text-align: center;
+}
