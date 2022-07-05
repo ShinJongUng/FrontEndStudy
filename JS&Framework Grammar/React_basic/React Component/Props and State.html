@@ -18,6 +18,11 @@
             state = { //state는 항상 객체여야 한다.
                 count: 0,
             };
+            constructor(props){
+                super(props);
+
+                this.state = {count: 0 };
+            }
             render(){
                 return(
                     <div>
@@ -29,6 +34,7 @@
 
             componentDidMount(){
                 setTimeout(() =>{
+                    //this.state.count = this.state.count + 1과 같은 의미의 코드이다.
                     this.setState({
                         count: this.state.count + 1
                     });
